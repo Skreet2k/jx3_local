@@ -38,7 +38,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: jenkins.onebranch.dev
+    domain: onebranch.dev
     kind: ingress
     namespaceSubDomain: -nginx.
     tls:

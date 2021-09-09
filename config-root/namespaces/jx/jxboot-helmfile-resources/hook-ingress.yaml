@@ -20,4 +20,4 @@ spec:
                 port:
                   number: 80
             path: "/hook"
-      host: hook-jx.jenkins.onebranch.dev
+      host: hook-jx.onebranch.dev

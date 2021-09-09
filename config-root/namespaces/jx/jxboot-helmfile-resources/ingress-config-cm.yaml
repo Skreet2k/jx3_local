@@ -1,7 +1,7 @@
 # Source: jxboot-helmfile-resources/templates/ingress-config-configmap.yaml
 apiVersion: v1
 data:
-  domain: "jenkins.onebranch.dev"
+  domain: "onebranch.dev"
   email: ""
   exposer: "Ingress"
   issuer: ""

@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: Skreet2k
+    provider: github
+    repository: jx3-cluster
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: skreet2k-jx3-cluster
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/Skreet2k/jx3-cluster.git
+  org: Skreet2k
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx3-cluster
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/Skreet2k/jx3-cluster

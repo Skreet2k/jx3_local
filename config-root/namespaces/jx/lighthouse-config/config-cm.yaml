@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        Skreet2k/jx3-cluster: true
         Skreet2k/jx3_local: true
     plank: {}
     pod_namespace: jx
@@ -19,6 +20,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        Skreet2k/jx3-cluster: merge
         Skreet2k/jx3_local: merge
       queries:
       - labels:
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - Skreet2k/jx3_local
+        - Skreet2k/jx3-cluster
       - labels:
         - updatebot
         missingLabels:
@@ -41,7 +44,8 @@ data:
         - needs-rebase
         repos:
         - Skreet2k/jx3_local
-      target_url: http://lighthouse-jx.jenkins.onebranch.dev/merge/status
+        - Skreet2k/jx3-cluster
+      target_url: http://lighthouse-jx.onebranch.dev/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null
