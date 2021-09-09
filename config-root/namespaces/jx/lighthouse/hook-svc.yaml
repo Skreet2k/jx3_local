@@ -10,12 +10,11 @@ metadata:
     meta.helm.sh/release-name: 'lighthouse'
   namespace: jx
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
     - port: 80
       targetPort: 8080
       protocol: TCP
       name: http
-      nodePort: 30100
   selector:
     app: lighthouse-webhooks
