@@ -10,6 +10,12 @@ spec:
     repositories:
     - name: jx3-cluster
     scheduler: in-repo
+  - owner: Skreet2k
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: react-app
+    scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
