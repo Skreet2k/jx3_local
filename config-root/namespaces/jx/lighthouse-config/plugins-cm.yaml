@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - Skreet2k/backend
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - Skreet2k/jx3-cluster
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -28,6 +32,11 @@ data:
         env/prow/plugins.yaml:
           name: plugins
     external_plugins:
+      Skreet2k/backend:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
       Skreet2k/jx3-cluster:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
@@ -53,6 +62,22 @@ data:
       additional_labels: null
     owners: {}
     plugins:
+      Skreet2k/backend:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       Skreet2k/jx3-cluster:
       - approve
       - assign
@@ -129,6 +154,9 @@ data:
     triggers:
     - repos:
       - Skreet2k/jx3_local
+      trusted_org: todo
+    - repos:
+      - Skreet2k/backend
       trusted_org: todo
     - repos:
       - Skreet2k/jx3-cluster
