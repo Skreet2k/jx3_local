@@ -9,6 +9,7 @@ data:
       enabled:
         Skreet2k/jx3-cluster: true
         Skreet2k/jx3_local: true
+        Skreet2k/react-app: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         Skreet2k/jx3-cluster: merge
         Skreet2k/jx3_local: merge
+        Skreet2k/react-app: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - Skreet2k/jx3_local
         - Skreet2k/jx3-cluster
+        - Skreet2k/react-app
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - Skreet2k/jx3_local
         - Skreet2k/jx3-cluster
+        - Skreet2k/react-app
       target_url: http://lighthouse-jx.onebranch.dev/merge/status
 kind: ConfigMap
 metadata:
