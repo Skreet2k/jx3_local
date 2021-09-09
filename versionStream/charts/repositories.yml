@@ -22,7 +22,7 @@ repositories:
   - https://comcast.github.io/kuberhealthy/helm-repos
 - prefix: jenkins-x
   urls:
-  - https://storage.googleapis.com/chartmuseum.jenkins-x.io
+  - https://jenkins-x-charts.github.io/v2
 - prefix: jenkinsci
   urls:
   -  https://charts.jenkins.io
