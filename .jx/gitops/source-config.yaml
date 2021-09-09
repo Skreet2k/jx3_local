@@ -16,3 +16,13 @@ spec:
     repositories:
     - name: react-app
     scheduler: in-repo
+  - owner: Skreet2k
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: spring
+    scheduler: in-repo
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
