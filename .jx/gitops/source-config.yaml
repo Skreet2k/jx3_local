@@ -16,7 +16,3 @@ spec:
     repositories:
     - name: react-app
     scheduler: in-repo
-  slack:
-    channel: '#jenkins-x-pipelines'
-    kind: failureOrNextSuccess
-    pipeline: release
