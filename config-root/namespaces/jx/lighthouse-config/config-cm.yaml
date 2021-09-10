@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         Skreet2k/backend: true
+        Skreet2k/frontend: true
         Skreet2k/jx3-cluster: true
         Skreet2k/jx3_local: true
         Skreet2k/react-app: true
@@ -24,6 +25,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         Skreet2k/backend: merge
+        Skreet2k/frontend: merge
         Skreet2k/jx3-cluster: merge
         Skreet2k/jx3_local: merge
         Skreet2k/react-app: merge
@@ -40,6 +42,7 @@ data:
         repos:
         - Skreet2k/jx3_local
         - Skreet2k/backend
+        - Skreet2k/frontend
         - Skreet2k/jx3-cluster
         - Skreet2k/react-app
         - Skreet2k/spring
@@ -54,6 +57,7 @@ data:
         repos:
         - Skreet2k/jx3_local
         - Skreet2k/backend
+        - Skreet2k/frontend
         - Skreet2k/jx3-cluster
         - Skreet2k/react-app
         - Skreet2k/spring
