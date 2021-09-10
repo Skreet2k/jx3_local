@@ -28,6 +28,12 @@ spec:
     repositories:
     - name: backend
     scheduler: in-repo
+  - owner: Skreet2k
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: frontend
+    scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
