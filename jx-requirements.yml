@@ -16,6 +16,9 @@ spec:
     provider: kubernetes
     registry: ghcr.io
   environments:
+  - key: dev
+    owner: Skreet2k
+    repository: jx3_local
   - key: staging
     owner: Skreet2k
     repository: jx3_local
