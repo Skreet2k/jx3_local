@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - Skreet2k/jx3_local
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - Skreet2k/backend
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -152,6 +156,9 @@ data:
       xl: 0
       xxl: 0
     triggers:
+    - repos:
+      - Skreet2k/jx3_local
+      trusted_org: todo
     - repos:
       - Skreet2k/jx3_local
       trusted_org: todo

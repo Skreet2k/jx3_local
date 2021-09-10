@@ -36,6 +36,8 @@ jxRequirements:
     owner: Skreet2k
     repository: jx3_local
   - key: staging
+    owner: Skreet2k
+    repository: jx3_local
   - key: production
   ingress:
     domain: onebranch.dev
