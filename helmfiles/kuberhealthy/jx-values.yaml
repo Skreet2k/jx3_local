@@ -26,7 +26,7 @@ jxRequirements:
     clusterName: kind
     devEnvApprovers:
     - skreet2k
-    environmentGitOwner: todo
+    environmentGitOwner: skreet2k
     gitKind: github
     gitName: github
     gitServer: https://github.com
