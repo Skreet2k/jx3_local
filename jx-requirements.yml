@@ -9,7 +9,7 @@ spec:
     chartRepository: https://github.com/skreet2k/charts.git
     clusterName: kind
     devEnvApprovers:
-    - todo
+    - skreet2k
     environmentGitOwner: todo
     gitKind: github
     gitName: github
