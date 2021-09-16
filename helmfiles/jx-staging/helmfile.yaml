@@ -4,5 +4,12 @@ environments:
     values:
     - jx-values.yaml
 namespace: jx-staging
+repositories:
+- name: dev
+  url: https://skreet2k.github.io/charts/
+releases:
+- chart: dev/backend
+  version: 1.0.0
+  name: backend
 templates: {}
 renderedvalues: {}
