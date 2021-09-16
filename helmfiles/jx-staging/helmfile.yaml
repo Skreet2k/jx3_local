@@ -1,8 +1,11 @@
 filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
 namespace: jx-staging
 repositories:
 - name: dev
   url: https://skreet2k.github.io/charts/
-releases:
 templates: {}
 renderedvalues: {}

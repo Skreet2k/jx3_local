@@ -43,7 +43,7 @@ jxRequirements:
   ingress:
     domain: onebranch.dev
     kind: ingress
-    namespaceSubDomain: -nginx.
+    namespaceSubDomain: -jx-staging.
     tls:
       email: ""
       enabled: false
