@@ -22,7 +22,7 @@ jxRequirements:
     schedule: ""
   cluster:
     chartKind: pages
-    chartRepository: https://github.com/skreet2k/helm-charts.git
+    chartRepository: https://github.com/skreet2k/charts.git
     clusterName: kind
     devEnvApprovers:
     - skreet2k
@@ -50,7 +50,7 @@ jxRequirements:
       production: false
   pipelineUser:
     username: skreet2k
-  repository: bucketrepo
+  repository: github
   secretStorage: local
   vault: {}
   webhook: lighthouse
