@@ -5,13 +5,5 @@ environments:
     - jx-values.yaml
 namespace: jx-staging
 repositories:
-- name: dev
-  url: https://skreet2k.github.io/charts/
-- name: dev2
-  url: https://skreet2k.github.io/helm-charts/
-releases:
-- chart: dev2/backend
-  version: 1.0.0
-  name: backend
 templates: {}
 renderedvalues: {}
