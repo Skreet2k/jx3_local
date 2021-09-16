@@ -6,7 +6,7 @@ spec:
     schedule: ""
   cluster:
     chartKind: pages
-    chartRepository: https://github.com/skreet2k/charts.git
+    chartRepository: https://github.com/skreet2k/helm-charts.git
     clusterName: kind
     devEnvApprovers:
     - skreet2k
